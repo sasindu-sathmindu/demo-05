@@ -15,13 +15,24 @@ padding: 20px;
 text-decoration: none;
 text-align: center;
 position: relative;
-top: 50px;
+top: 300px;
 left: 70px;
+
+
 }
 .Link:hover{
 background-color: blue;
 font-size: large;
 
+}
+.Link:active{
+background-color: aqua;
+font-size: xx-large;
+font-weight: 300;
+display:none ;
 
-
+}
+::selection{
+background-color: yellowgreen;
+color: brown;
 }
